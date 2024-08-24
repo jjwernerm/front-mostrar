@@ -42,12 +42,12 @@ export default function Mostrar() { // Define el componente funcional 'Mostrar'.
           onClick={handleSubmit} // Asocia la función 'handleSubmit' al evento de clic del botón.
         >
           {spinner ? (
-            <div className="flex items-center capitalize text-sm">
+            <div className="flex items-center justify-center capitalize text-sm">
               <ImSpinner9 className="animate-spin h-5 w-5 text-white mr-2" /> {/* Muestra el spinner mientras se obtienen datos */}
-              Obteniendo datos...
+              Obteniendo lista...
             </div>
           ) : (
-            'Mostrar' // Muestra el texto 'Mostrar' cuando el spinner está desactivado.
+            'Mostrar Lista' // Muestra el texto 'Mostrar' cuando el spinner está desactivado.
           )}
         </button>
 
