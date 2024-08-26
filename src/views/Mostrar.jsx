@@ -35,6 +35,11 @@ export default function Mostrar() { // Define el componente funcional 'Mostrar'.
 
   return (
     <>
+      <a
+        href='https://joannywerner.com/dashboardmern'
+        className="ml-5 underline">
+        Regresar al Dashboard        
+      </a>
       <div className="flex flex-col items-center my-4">
         <button
           type="submit"
