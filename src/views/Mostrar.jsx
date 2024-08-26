@@ -36,7 +36,7 @@ export default function Mostrar() { // Define el componente funcional 'Mostrar'.
   return (
     <>
       <a
-        href='https://joannywerner.com/dashboardmern'
+        href='https://crud-producto-seven.vercel.app/'
         className="ml-5 underline">
         Regresar al Dashboard        
       </a>
